@@ -1,8 +1,0 @@
-2025-05-24 18:19:21 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-24 18:19:21 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-24 18:19:25 | INFO     | src.agents.conversation:_setup_watsonx:50 - IBM watsonx model setup completed
-2025-05-24 18:19:25 | INFO     | src.agents.conversation:_setup_tools:75 - Tools setup completed
-2025-05-24 18:19:25 | INFO     | src.agents.conversation:_setup_agents:91 - Specialized agents setup completed
-2025-05-24 18:19:25 | INFO     | src.agents.conversation:__init__:23 - Conversation manager initialized successfully
-2025-05-24 18:19:27 | ERROR    | src.agents.conversation:process_query:190 - Error processing query: A single string input was passed in, but this chain expects multiple inputs ({'tools', 'tool_names', 'agent_scratchpad', 'input'}). When a chain expects multiple inputs, please call it by passing in a dictionary, eg `chain({'foo': 1, 'bar': 2})`
-2025-05-24 18:19:27 | INFO     | __main__:main:135 - Processed query: Are lump sum death benefits taxed?

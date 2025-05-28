@@ -1,3 +1,0 @@
-2025-05-25 21:10:42 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 21:10:42 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 21:10:51 | ERROR    | src.agents.conversation:_setup_vector_stores_and_retrievers:92 - Error setting up vector stores and retrievers: Retriever.__init__() got an unexpected keyword argument 'search_type'

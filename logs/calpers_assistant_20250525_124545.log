@@ -1,5 +1,0 @@
-2025-05-25 12:45:45 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 12:45:45 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 12:45:50 | INFO     | src.agents.conversation:_setup_watsonx:42 - IBM watsonx model setup completed
-2025-05-25 12:45:52 | INFO     | src.agents.conversation:_setup_embeddings:60 - IBM watsonx embeddings setup completed
-2025-05-25 12:45:52 | ERROR    | src.agents.conversation:_setup_rag:90 - Error setting up RAG: Retriever.__init__() got an unexpected keyword argument 'collection_name'

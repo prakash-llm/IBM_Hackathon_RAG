@@ -1,7 +1,0 @@
-2025-05-25 22:39:59 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 22:39:59 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 22:40:05 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
-2025-05-25 22:40:13 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:122 - Vector stores and retrievers setup completed successfully
-2025-05-25 22:40:13 | INFO     | src.agents.conversation:__init__:45 - Conversation manager initialized successfully
-2025-05-25 22:40:19 | INFO     | src.agents.conversation:process_query:176 - Processed query for Member: If we have more than 100 employees, why are we mandated into a risk pool?
-2025-05-25 22:40:19 | INFO     | __main__:main:135 - Processed query: If we have more than 100 employees, why are we mandated into a risk pool?

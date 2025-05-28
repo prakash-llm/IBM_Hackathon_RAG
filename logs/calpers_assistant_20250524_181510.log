@@ -1,4 +1,0 @@
-2025-05-24 18:15:10 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-24 18:15:10 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-24 18:15:14 | INFO     | src.agents.conversation:_setup_watsonx:49 - IBM watsonx model setup completed
-2025-05-24 18:15:14 | ERROR    | src.agents.conversation:_setup_agents:67 - Error setting up agents: Can't instantiate abstract class StringPromptTemplate with abstract method format

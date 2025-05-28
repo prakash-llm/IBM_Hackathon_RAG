@@ -1,8 +1,0 @@
-2025-05-25 20:55:43 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 20:55:43 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 20:55:57 | INFO     | src.agents.conversation:__init__:40 - Conversation manager initialized successfully
-2025-05-25 20:55:58 | ERROR    | src.agents.conversation:process_query:121 - Error processing query: 1 validation error for SearchTool
-retriever
-  Field required [type=missing, input_value={}, input_type=dict]
-    For further information visit https://errors.pydantic.dev/2.11/v/missing
-2025-05-25 20:55:58 | INFO     | __main__:main:135 - Processed query: When will I get my first retirement check

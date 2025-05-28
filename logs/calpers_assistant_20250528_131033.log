@@ -1,5 +1,0 @@
-2025-05-28 13:10:34 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-28 13:10:34 | INFO     | __main__:<module>:14 - Starting CalPERS Multi-Agent Assistant
-2025-05-28 13:10:37 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
-2025-05-28 13:10:43 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:122 - Vector stores and retrievers setup completed successfully
-2025-05-28 13:10:43 | INFO     | src.agents.conversation:__init__:59 - Conversation manager initialized successfully

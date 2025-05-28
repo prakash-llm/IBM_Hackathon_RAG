@@ -1,8 +1,0 @@
-2025-05-24 18:56:19 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-24 18:56:19 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-24 18:56:23 | INFO     | src.agents.conversation:_setup_watsonx:47 - IBM watsonx model setup completed
-2025-05-24 18:56:26 | INFO     | src.agents.conversation:_setup_embeddings:60 - Embeddings model setup completed
-2025-05-24 18:56:26 | INFO     | src.agents.conversation:_setup_vector_db:83 - Vector database setup completed
-2025-05-24 18:56:26 | INFO     | src.agents.conversation:__init__:20 - Conversation manager initialized successfully
-2025-05-24 18:56:28 | ERROR    | src.agents.conversation:process_query:158 - Error processing query: 'tools'
-2025-05-24 18:56:28 | INFO     | __main__:main:135 - Processed query: Are lump sum death benefits taxed?

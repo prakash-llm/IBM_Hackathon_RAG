@@ -1,3 +1,0 @@
-2025-05-25 20:48:43 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 20:48:43 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 20:48:58 | INFO     | src.agents.conversation:__init__:17 - Conversation manager initialized successfully

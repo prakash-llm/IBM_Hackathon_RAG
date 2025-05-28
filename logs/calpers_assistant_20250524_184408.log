@@ -1,4 +1,0 @@
-2025-05-24 18:44:08 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-24 18:44:08 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-24 18:44:10 | INFO     | src.agents.conversation:_setup_watsonx:44 - IBM watsonx model setup completed
-2025-05-24 18:44:10 | INFO     | src.agents.conversation:__init__:17 - Conversation manager initialized successfully

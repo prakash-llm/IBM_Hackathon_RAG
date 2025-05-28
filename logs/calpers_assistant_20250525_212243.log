@@ -1,9 +1,0 @@
-2025-05-25 21:22:43 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 21:22:43 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 21:22:51 | ERROR    | src.agents.conversation:_setup_models_and_embeddings:76 - Error setting up models and embeddings: WatsonxLLM.__init__() got an unexpected keyword argument 'model_id'
-2025-05-25 21:22:51 | ERROR    | src.agents.conversation:_setup_models_and_embeddings:77 - Stack trace:
-2025-05-25 21:22:51 | ERROR    | src.agents.conversation:_setup_models_and_embeddings:78 - Traceback (most recent call last):
-  File "C:\Users\Admin\Desktop\IBM_RAG_Hackathon\src\agents\conversation.py", line 62, in _setup_models_and_embeddings
-    self.llm = WatsonxLLM(
-TypeError: WatsonxLLM.__init__() got an unexpected keyword argument 'model_id'
-

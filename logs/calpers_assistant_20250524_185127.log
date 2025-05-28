@@ -1,4 +1,0 @@
-2025-05-24 18:51:27 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-24 18:51:27 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-24 18:51:30 | INFO     | src.agents.conversation:_setup_watsonx:47 - IBM watsonx model setup completed
-2025-05-24 18:51:30 | ERROR    | src.agents.conversation:_setup_embeddings:62 - Error setting up embeddings model: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.

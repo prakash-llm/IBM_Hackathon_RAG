@@ -1,8 +1,0 @@
-2025-05-25 20:49:20 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
-2025-05-25 20:49:20 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
-2025-05-25 20:49:31 | INFO     | src.agents.conversation:__init__:17 - Conversation manager initialized successfully
-2025-05-25 20:49:33 | ERROR    | src.agents.conversation:process_query:105 - Error processing query: 1 validation error for Agent
-tools.0
-  Input should be a valid dictionary or instance of BaseTool [type=model_type, input_value=<function ConversationMan...> at 0x000001DBC5615750>, input_type=function]
-    For further information visit https://errors.pydantic.dev/2.11/v/model_type
-2025-05-25 20:49:33 | INFO     | __main__:main:135 - Processed query: When will I get my first retirement check
