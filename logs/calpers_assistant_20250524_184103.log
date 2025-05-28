@@ -1,0 +1,6 @@
+2025-05-24 18:41:03 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:41:03 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:41:07 | INFO     | src.agents.conversation:_setup_watsonx:44 - IBM watsonx model setup completed
+2025-05-24 18:41:07 | INFO     | src.agents.conversation:__init__:17 - Conversation manager initialized successfully
+2025-05-24 18:41:11 | INFO     | src.agents.conversation:process_query:109 - Processed query for Member: Error processing query: 1 validation error for LLMSingleActionAgent output_parser   field required (type=value_error.missing)
+2025-05-24 18:41:11 | INFO     | __main__:main:135 - Processed query: Error processing query: 1 validation error for LLMSingleActionAgent output_parser   field required (type=value_error.missing)

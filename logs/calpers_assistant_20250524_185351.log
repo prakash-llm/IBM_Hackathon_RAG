@@ -1,0 +1,5 @@
+2025-05-24 18:53:51 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:53:51 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:53:55 | INFO     | src.agents.conversation:_setup_watsonx:47 - IBM watsonx model setup completed
+2025-05-24 18:54:10 | INFO     | src.agents.conversation:_setup_embeddings:60 - Embeddings model setup completed
+2025-05-24 18:54:10 | ERROR    | src.agents.conversation:_setup_vector_db:85 - Error setting up vector database: Could not import chromadb python package. Please install it with `pip install chromadb`.

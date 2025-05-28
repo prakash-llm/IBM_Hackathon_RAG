@@ -1,0 +1,11 @@
+2025-05-24 18:06:29 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:06:29 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:06:29 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:06:29 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:06:29 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:06:29 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:06:29 | ERROR    | src.agents.conversation:_setup_watsonx:54 - Error setting up watsonx: 'ibm'
+2025-05-24 18:06:29 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:06:29 | ERROR    | src.agents.conversation:_setup_watsonx:54 - Error setting up watsonx: 'ibm'
+2025-05-24 18:06:29 | ERROR    | src.agents.conversation:_setup_watsonx:54 - Error setting up watsonx: 'ibm'
+2025-05-24 18:06:29 | ERROR    | src.agents.conversation:_setup_watsonx:54 - Error setting up watsonx: 'ibm'

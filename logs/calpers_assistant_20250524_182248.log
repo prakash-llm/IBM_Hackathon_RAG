@@ -1,0 +1,8 @@
+2025-05-24 18:22:48 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:22:48 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:22:51 | INFO     | src.agents.conversation:_setup_watsonx:50 - IBM watsonx model setup completed
+2025-05-24 18:22:51 | INFO     | src.agents.conversation:_setup_tools:75 - Tools setup completed
+2025-05-24 18:22:51 | INFO     | src.agents.conversation:_setup_agents:91 - Specialized agents setup completed
+2025-05-24 18:22:51 | INFO     | src.agents.conversation:__init__:23 - Conversation manager initialized successfully
+2025-05-24 18:23:05 | ERROR    | src.agents.conversation:process_query:230 - Error processing query: Got unsupported early_stopping_method `generate`
+2025-05-24 18:23:05 | INFO     | __main__:main:135 - Processed query: Are lump sum death benefits taxed?

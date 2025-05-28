@@ -1,0 +1,6 @@
+2025-05-25 21:12:43 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 21:12:43 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:12:58 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:88 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:12:58 | INFO     | src.agents.conversation:__init__:39 - Conversation manager initialized successfully
+2025-05-25 21:12:59 | ERROR    | src.agents.conversation:process_query:124 - Error processing query: 'NoneType' object has no attribute 'supports_stop_words'
+2025-05-25 21:12:59 | INFO     | __main__:main:135 - Processed query: Can employees who lost their Social Security benefits pay the contributions for coverage on their own?

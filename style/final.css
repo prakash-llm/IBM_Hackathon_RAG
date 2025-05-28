@@ -1,0 +1,194 @@
+/* bacgroun colour */
+section.main.st-emotion-cache-uf99v8.ea3mdgi5 {
+    background: white;
+}
+
+.st-emotion-cache-vk3wp9 {
+    /* position: relative; */
+    top: 2px;
+    background-color: #4c85e4;
+    z-index: 999991;
+    min-width: 350px;
+    max-width: 350px;
+    transform: none;
+    transition: transform 300ms ease 0s, min-width 300ms ease 0s, max-width 300ms ease 0s;
+}
+
+/* header colur */
+header.st-emotion-cache-18ni7ap.ezrtsby2 {
+    background:white;
+}
+
+/* login Alignment */
+.st-emotion-cache-r421ms.e10yg2by1 {
+    background: white;
+    margin-left: 0px;
+    width: 100%;
+}
+
+/* sidebar clear button */
+input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    background: #32CD32;
+    border-color: #32CD32;
+    color:white;
+}
+
+
+/* chat body margin alignment */
+.block-container.st-emotion-cache-z5fcl4.ea3mdgi4 {
+    margin-top: -87px;
+}
+/* chat button colour */
+button.st-emotion-cache-7ym5gk.ef3psqc7 {
+    background-color: #69d2e7;
+    color: white;
+}
+
+/* sidebar top alignment */
+.st-emotion-cache-16txtl3.eczjsme4 {
+    margin-top: -40px;
+}
+
+button.st-emotion-cache-7ym5gk.ef3psqc12 {
+    background: limegreen;
+    color: white;
+}
+
+.block-container.st-emotion-cache-z5fcl4.ea3mdgi2 {
+    margin-top: -50px;
+}
+
+/* Main container styling */
+.stApp {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar .sidebar-content {
+    background-color: #1E1E1E;
+    color: white;
+}
+
+/* Text styling */
+h1, h2, h3 {
+    color: #333;
+    font-weight: 600;
+}
+
+/* Button styling */
+.stButton>button {
+    background-color: #0066cc;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.stButton>button:hover {
+    background-color: #0052a3;
+    transform: translateY(-2px);
+}
+
+/* Text input styling */
+.stTextInput>div>div>input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Chat message styling */
+.chat-message {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 80%;
+}
+
+.user-message {
+    background-color: #e3f2fd;
+    margin-left: auto;
+}
+
+.assistant-message {
+    background-color: #f5f5f5;
+    margin-right: auto;
+}
+
+/* Radio button styling */
+.stRadio>div {
+    display: flex;
+    gap: 20px;
+}
+
+.st-emotion-cache-16txtl3.eczjsme4 {
+    margin-top: -72px;
+}
+
+.st-emotion-cache-16txtl3 {
+    padding: 6rem 2.5rem 1rem 2rem;
+}/* Select box styling */
+.stSelectbox>div>div>select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.st-emotion-cache-vk3wp9.eczjsme11 > div.st-emotion-cache-6qob1r.eczjsme3 > div.st-emotion-cache-16txtl3.eczjsme4 > div > div > div > div.st-emotion-cache-ocqkz7.e1f1d6gn4 > div:nth-child(2) > div > div > div:nth-child(2) > div > div > div > img{
+    width: 100%;
+    height: 90px;
+    border-radius: 2px;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi5 > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi4 > div > div > div:nth-child(3) > div.st-emotion-cache-keje6w.e1f1d6gn2{
+    width: 100%;
+    position: relative;
+    left: 32%;
+    padding: 4rem 2rem 0rem 2rem;
+}
+
+#root > div:nth-child(1) > div.withScreencast > div > div > div > section.main.st-emotion-cache-uf99v8.ea3mdgi5 > div.block-container.st-emotion-cache-z5fcl4.ea3mdgi4 > div > div > div:nth-child(3) > div.st-emotion-cache-keje6w.e1f1d6gn2 > div > div > div > div > div > div{
+    position: relative;
+    left: -50%;
+}
+
+
+/* Logo container styling */
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+/* Feedback button styling */
+.feedback-button {
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.feedback-button:hover {
+    background-color: #e0e0e0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .stApp {
+        max-width: 100%;
+        padding: 10px;
+    }
+    
+    .chat-message {
+        max-width: 90%;
+    }
+}

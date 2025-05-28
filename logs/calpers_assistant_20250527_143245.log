@@ -1,0 +1,15 @@
+2025-05-27 14:32:45 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-27 14:32:45 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-27 14:32:53 | INFO     | src.agents.conversation:_setup_models_and_embeddings:91 - Models and embeddings setup completed successfully
+2025-05-27 14:33:00 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:123 - Vector stores and retrievers setup completed successfully
+2025-05-27 14:33:00 | INFO     | src.agents.conversation:__init__:46 - Conversation manager initialized successfully
+2025-05-27 14:33:04 | INFO     | src.agents.conversation:_run:29 - Results From Retriever: []
+2025-05-27 14:33:05 | INFO     | src.agents.conversation:process_query:172 - Crew Raw Output:
+2025-05-27 14:33:05 | INFO     | src.agents.conversation:process_query:173 - Type: <class 'crewai.crews.crew_output.CrewOutput'>
+2025-05-27 14:33:05 | INFO     | src.agents.conversation:process_query:174 - Content: Thought: I need to wait for the observation to provide the final answer.
+
+2025-05-27 14:33:05 | INFO     | src.agents.conversation:process_query:178 - Object Attributes: {'raw': 'Thought: I need to wait for the observation to provide the final answer.\n', 'pydantic': None, 'json_dict': None, 'tasks_output': [TaskOutput(description='Help the user with their query: If an employee is dissatisfied with a retroactive reimbursement decision, is there an appeal process?', name=None, expected_output="A detailed and accurate response to the user's query based on the available information.", summary='Help the user with their query: If an employee is...', raw='Thought: I need to wait for the observation to provide the final answer.\n', pydantic=None, json_dict=None, agent='CalPERS Member Assistant', output_format=<OutputFormat.RAW: 'raw'>)], 'token_usage': UsageMetrics(total_tokens=868, prompt_tokens=788, cached_prompt_tokens=0, completion_tokens=80, successful_requests=2)}
+2025-05-27 14:33:05 | INFO     | src.agents.conversation:process_query:186 - Processed query for Member: If an employee is dissatisfied with a retroactive reimbursement decision, is there an appeal process?
+2025-05-27 14:33:05 | INFO     | src.agents.conversation:process_query:187 - Final Response: Thought: I need to wait for the observation to provide the final answer.
+
+2025-05-27 14:33:05 | INFO     | __main__:main:135 - Processed query: If an employee is dissatisfied with a retroactive reimbursement decision, is there an appeal process?

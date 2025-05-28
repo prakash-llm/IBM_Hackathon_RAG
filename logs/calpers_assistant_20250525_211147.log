@@ -1,0 +1,6 @@
+2025-05-25 21:11:47 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 21:11:47 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:11:59 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:88 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:11:59 | INFO     | src.agents.conversation:__init__:39 - Conversation manager initialized successfully
+2025-05-25 21:12:00 | ERROR    | src.agents.conversation:process_query:124 - Error processing query: 'NoneType' object has no attribute 'supports_stop_words'
+2025-05-25 21:12:00 | INFO     | __main__:main:135 - Processed query: When will I get my first retirement check

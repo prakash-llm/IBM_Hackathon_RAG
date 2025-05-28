@@ -1,0 +1,15 @@
+2025-05-27 14:27:00 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-27 14:27:00 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-27 14:27:00 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-27 14:27:00 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-27 14:27:00 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-27 14:27:00 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-27 14:27:00 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-27 14:27:10 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
+2025-05-27 14:27:10 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
+2025-05-27 14:27:12 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
+2025-05-27 14:27:12 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
+2025-05-27 14:27:18 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:122 - Vector stores and retrievers setup completed successfully
+2025-05-27 14:27:18 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:122 - Vector stores and retrievers setup completed successfully
+2025-05-27 14:27:18 | INFO     | src.agents.conversation:__init__:45 - Conversation manager initialized successfully
+2025-05-27 14:27:18 | INFO     | src.agents.conversation:__init__:45 - Conversation manager initialized successfully

@@ -1,0 +1,10 @@
+2025-05-24 18:17:57 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:17:57 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:18:00 | INFO     | src.agents.conversation:_setup_watsonx:49 - IBM watsonx model setup completed
+2025-05-24 18:18:00 | INFO     | src.agents.conversation:_setup_tools:74 - Tools setup completed
+2025-05-24 18:18:00 | INFO     | src.agents.conversation:_setup_agents:90 - Specialized agents setup completed
+2025-05-24 18:18:00 | INFO     | src.agents.conversation:__init__:22 - Conversation manager initialized successfully
+2025-05-24 18:18:01 | ERROR    | src.agents.conversation:process_query:185 - Error processing query: 1 validation error for LLMSingleActionAgent
+output_parser
+  field required (type=value_error.missing)
+2025-05-24 18:18:01 | INFO     | __main__:main:135 - Processed query: Error processing query: Missing some input keys: {'agent_scratchpad'}

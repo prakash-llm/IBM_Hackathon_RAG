@@ -1,0 +1,19 @@
+2025-05-25 21:39:31 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 21:39:31 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 21:39:31 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 21:39:31 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:39:31 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:39:31 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:39:31 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:39:39 | INFO     | src.agents.conversation:_setup_models_and_embeddings:85 - Models and embeddings setup completed successfully
+2025-05-25 21:39:39 | INFO     | src.agents.conversation:_setup_models_and_embeddings:85 - Models and embeddings setup completed successfully
+2025-05-25 21:39:39 | INFO     | src.agents.conversation:_setup_models_and_embeddings:85 - Models and embeddings setup completed successfully
+2025-05-25 21:39:39 | INFO     | src.agents.conversation:_setup_models_and_embeddings:85 - Models and embeddings setup completed successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:117 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:117 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:117 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:117 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:__init__:43 - Conversation manager initialized successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:__init__:43 - Conversation manager initialized successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:__init__:43 - Conversation manager initialized successfully
+2025-05-25 21:39:46 | INFO     | src.agents.conversation:__init__:43 - Conversation manager initialized successfully

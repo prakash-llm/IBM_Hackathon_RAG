@@ -1,0 +1,14 @@
+2025-05-25 22:45:27 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 22:45:27 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 22:45:33 | INFO     | src.agents.conversation:_setup_models_and_embeddings:90 - Models and embeddings setup completed successfully
+2025-05-25 22:45:40 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:122 - Vector stores and retrievers setup completed successfully
+2025-05-25 22:45:40 | INFO     | src.agents.conversation:__init__:45 - Conversation manager initialized successfully
+2025-05-25 22:45:44 | INFO     | src.agents.conversation:process_query:171 - Crew Raw Output:
+2025-05-25 22:45:44 | INFO     | src.agents.conversation:process_query:172 - Type: <class 'crewai.crews.crew_output.CrewOutput'>
+2025-05-25 22:45:44 | INFO     | src.agents.conversation:process_query:173 - Content: Thought: I need to analyze the observation to provide a detailed and accurate response.
+
+2025-05-25 22:45:44 | INFO     | src.agents.conversation:process_query:177 - Object Attributes: {'raw': 'Thought: I need to analyze the observation to provide a detailed and accurate response.\n', 'pydantic': None, 'json_dict': None, 'tasks_output': [TaskOutput(description='Help the user with their query: When is an employee election required for a contract amendment', name=None, expected_output="A detailed and accurate response to the user's query based on the available information.", summary='Help the user with their query: When is an employee...', raw='Thought: I need to analyze the observation to provide a detailed and accurate response.\n', pydantic=None, json_dict=None, agent='CalPERS Member Assistant', output_format=<OutputFormat.RAW: 'raw'>)], 'token_usage': UsageMetrics(total_tokens=835, prompt_tokens=763, cached_prompt_tokens=0, completion_tokens=72, successful_requests=2)}
+2025-05-25 22:45:44 | INFO     | src.agents.conversation:process_query:185 - Processed query for Member: When is an employee election required for a contract amendment
+2025-05-25 22:45:44 | INFO     | src.agents.conversation:process_query:186 - Final Response: Thought: I need to analyze the observation to provide a detailed and accurate response.
+
+2025-05-25 22:45:44 | INFO     | __main__:main:135 - Processed query: When is an employee election required for a contract amendment

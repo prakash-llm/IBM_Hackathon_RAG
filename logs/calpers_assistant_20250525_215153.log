@@ -1,0 +1,63 @@
+2025-05-25 21:51:53 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 21:51:53 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 21:52:17 | INFO     | src.agents.conversation:_setup_models_and_embeddings:96 - Models and embeddings setup completed successfully
+2025-05-25 21:52:25 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:128 - Vector stores and retrievers setup completed successfully
+2025-05-25 21:52:25 | INFO     | src.agents.conversation:__init__:44 - Conversation manager initialized successfully
+2025-05-25 21:52:26 | ERROR    | src.agents.conversation:process_query:178 - Error processing query: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=[1mWatsonxLLM[0m
+Params: {'model_id': 'meta-llama/llama-3-3-70b-instruct', 'deployment_id': None, 'params': {'decoding_method': 'greedy', 'max_new_tokens': 1000, 'min_new_tokens': 1, 'temperature': 0.7, 'top_p': 0.9, 'top_k': 50, 'repetition_penalty': 1.0}, 'project_id': '67471f27-1298-4433-88f9-39c5abe0b947', 'space_id': None}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2025-05-25 21:52:26 | ERROR    | src.agents.conversation:process_query:179 - Stack trace:
+2025-05-25 21:52:26 | ERROR    | src.agents.conversation:process_query:180 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\IBM_RAG_Hackathon\src\agents\conversation.py", line 174, in process_query
+    result = crew.kickoff()
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\crew.py", line 661, in kickoff
+    result = self._run_sequential_process()
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\crew.py", line 773, in _run_sequential_process
+    return self._execute_tasks(self.tasks)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\crew.py", line 876, in _execute_tasks
+    task_output = task.execute_sync(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\task.py", line 351, in execute_sync
+    return self._execute_core(agent, context, tools)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\task.py", line 495, in _execute_core
+    raise e  # Re-raise the exception after emitting the event
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\task.py", line 415, in _execute_core
+    result = agent.execute_task(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agent.py", line 420, in execute_task
+    raise e
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agent.py", line 396, in execute_task
+    result = self._execute_without_timeout(task_prompt, task)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agent.py", line 492, in _execute_without_timeout
+    return self.agent_executor.invoke(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agents\crew_agent_executor.py", line 123, in invoke
+    raise e
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agents\crew_agent_executor.py", line 112, in invoke
+    formatted_answer = self._invoke_loop()
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agents\crew_agent_executor.py", line 208, in _invoke_loop
+    raise e
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\agents\crew_agent_executor.py", line 155, in _invoke_loop
+    answer = get_llm_response(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\utilities\agent_utils.py", line 157, in get_llm_response
+    raise e
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\utilities\agent_utils.py", line 148, in get_llm_response
+    answer = llm.call(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\llm.py", line 890, in call
+    return self._handle_non_streaming_response(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\crewai\llm.py", line 729, in _handle_non_streaming_response
+    response = litellm.completion(**params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\litellm\utils.py", line 1255, in wrapper
+    raise e
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\litellm\utils.py", line 1133, in wrapper
+    result = original_function(*args, **kwargs)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\litellm\main.py", line 3216, in completion
+    raise exception_type(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\litellm\main.py", line 1031, in completion
+    model, custom_llm_provider, dynamic_api_key, api_base = get_llm_provider(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 360, in get_llm_provider
+    raise e
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 337, in get_llm_provider
+    raise litellm.exceptions.BadRequestError(  # type: ignore
+litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=[1mWatsonxLLM[0m
+Params: {'model_id': 'meta-llama/llama-3-3-70b-instruct', 'deployment_id': None, 'params': {'decoding_method': 'greedy', 'max_new_tokens': 1000, 'min_new_tokens': 1, 'temperature': 0.7, 'top_p': 0.9, 'top_k': 50, 'repetition_penalty': 1.0}, 'project_id': '67471f27-1298-4433-88f9-39c5abe0b947', 'space_id': None}
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+
+2025-05-25 21:52:26 | INFO     | __main__:main:135 - Processed query: When will I get my first retirement check

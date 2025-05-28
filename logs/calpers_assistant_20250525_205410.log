@@ -1,0 +1,5 @@
+2025-05-25 20:54:10 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 20:54:10 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 20:54:24 | INFO     | src.agents.conversation:__init__:38 - Conversation manager initialized successfully
+2025-05-25 20:54:24 | ERROR    | src.agents.conversation:process_query:119 - Error processing query: "SearchTool" object has no field "retriever"
+2025-05-25 20:54:24 | INFO     | __main__:main:135 - Processed query: When will I get my first retirement check

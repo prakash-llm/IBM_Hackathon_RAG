@@ -1,0 +1,88 @@
+2025-05-25 22:03:11 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 22:03:11 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 22:03:19 | INFO     | src.agents.conversation:_setup_models_and_embeddings:78 - Models and embeddings setup completed successfully
+2025-05-25 22:03:28 | INFO     | src.agents.conversation:_setup_vector_stores_and_retrievers:110 - Vector stores and retrievers setup completed successfully
+2025-05-25 22:03:28 | INFO     | src.agents.conversation:__init__:43 - Conversation manager initialized successfully
+2025-05-25 22:03:31 | ERROR    | src.agents.conversation:_run:29 - Error searching knowledge base: Failure during generate. (POST https://us-south.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2025-05-15)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-bert-medium' is not supported","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"7c92085e286adc70c30898d053fb3659","status_code":404}
+2025-05-25 22:03:31 | ERROR    | src.agents.conversation:_run:30 - Stack trace:
+2025-05-25 22:03:31 | ERROR    | src.agents.conversation:_run:31 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\IBM_RAG_Hackathon\src\agents\conversation.py", line 26, in _run
+    results = self.retriever.retrieve(query)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\retriever\retriever.py", line 99, in retrieve
+    return self.vector_store.search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\vector_stores\vector_store.py", line 314, in search
+    return self._vector_store.search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\vector_stores\langchain_vector_store_adapter.py", line 223, in search
+    result = self._langchain_vector_store.similarity_search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\langchain_milvus\vectorstores\milvus.py", line 1467, in similarity_search
+    res = self.similarity_search_with_score(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\langchain_milvus\vectorstores\milvus.py", line 1552, in similarity_search_with_score
+    embedding = self._as_list(self.embedding_func)[0].embed_query(query)  # type: ignore
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 403, in embed_query
+    self.generate(inputs=[text], params=params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 344, in generate
+    results = self._generate(generate_url, inputs, params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 443, in _generate
+    return self._handle_response(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\wml_resource.py", line 166, in _handle_response
+    raise ApiRequestFailure(
+ibm_watsonx_ai.wml_client_error.ApiRequestFailure: Failure during generate. (POST https://us-south.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2025-05-15)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-bert-medium' is not supported","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"7c92085e286adc70c30898d053fb3659","status_code":404}
+
+2025-05-25 22:03:33 | ERROR    | src.agents.conversation:_run:29 - Error searching knowledge base: Failure during generate. (POST https://us-south.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2025-05-15)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-bert-medium' is not supported","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"f1344fbedc332c2a74c4c32bd7aed643","status_code":404}
+2025-05-25 22:03:33 | ERROR    | src.agents.conversation:_run:30 - Stack trace:
+2025-05-25 22:03:33 | ERROR    | src.agents.conversation:_run:31 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\IBM_RAG_Hackathon\src\agents\conversation.py", line 26, in _run
+    results = self.retriever.retrieve(query)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\retriever\retriever.py", line 99, in retrieve
+    return self.vector_store.search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\vector_stores\vector_store.py", line 314, in search
+    return self._vector_store.search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\vector_stores\langchain_vector_store_adapter.py", line 223, in search
+    result = self._langchain_vector_store.similarity_search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\langchain_milvus\vectorstores\milvus.py", line 1467, in similarity_search
+    res = self.similarity_search_with_score(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\langchain_milvus\vectorstores\milvus.py", line 1552, in similarity_search_with_score
+    embedding = self._as_list(self.embedding_func)[0].embed_query(query)  # type: ignore
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 403, in embed_query
+    self.generate(inputs=[text], params=params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 344, in generate
+    results = self._generate(generate_url, inputs, params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 443, in _generate
+    return self._handle_response(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\wml_resource.py", line 166, in _handle_response
+    raise ApiRequestFailure(
+ibm_watsonx_ai.wml_client_error.ApiRequestFailure: Failure during generate. (POST https://us-south.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2025-05-15)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-bert-medium' is not supported","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"f1344fbedc332c2a74c4c32bd7aed643","status_code":404}
+
+2025-05-25 22:03:36 | ERROR    | src.agents.conversation:_run:29 - Error searching knowledge base: Failure during generate. (POST https://us-south.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2025-05-15)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-bert-medium' is not supported","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"964e3fc2f2a5cd6370a574f0a929ea02","status_code":404}
+2025-05-25 22:03:36 | ERROR    | src.agents.conversation:_run:30 - Stack trace:
+2025-05-25 22:03:36 | ERROR    | src.agents.conversation:_run:31 - Traceback (most recent call last):
+  File "C:\Users\Admin\Desktop\IBM_RAG_Hackathon\src\agents\conversation.py", line 26, in _run
+    results = self.retriever.retrieve(query)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\retriever\retriever.py", line 99, in retrieve
+    return self.vector_store.search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\vector_stores\vector_store.py", line 314, in search
+    return self._vector_store.search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\extensions\rag\vector_stores\langchain_vector_store_adapter.py", line 223, in search
+    result = self._langchain_vector_store.similarity_search(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\langchain_milvus\vectorstores\milvus.py", line 1467, in similarity_search
+    res = self.similarity_search_with_score(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\langchain_milvus\vectorstores\milvus.py", line 1552, in similarity_search_with_score
+    embedding = self._as_list(self.embedding_func)[0].embed_query(query)  # type: ignore
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 403, in embed_query
+    self.generate(inputs=[text], params=params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 344, in generate
+    results = self._generate(generate_url, inputs, params)
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\foundation_models\embeddings\embeddings.py", line 443, in _generate
+    return self._handle_response(
+  File "C:\Users\Admin\anaconda3\envs\ibm_rag_v3\lib\site-packages\ibm_watsonx_ai\wml_resource.py", line 166, in _handle_response
+    raise ApiRequestFailure(
+ibm_watsonx_ai.wml_client_error.ApiRequestFailure: Failure during generate. (POST https://us-south.ml.cloud.ibm.com/ml/v1/text/embeddings?version=2025-05-15)
+Status code: 404, body: {"errors":[{"code":"model_not_supported","message":"Model 'ibm/slate-bert-medium' is not supported","more_info":"https://cloud.ibm.com/apidocs/watsonx-ai#text-embeddings"}],"trace":"964e3fc2f2a5cd6370a574f0a929ea02","status_code":404}
+
+2025-05-25 22:03:54 | INFO     | src.agents.conversation:process_query:157 - Processed query for Member: When will I get my first retirement check
+2025-05-25 22:03:54 | INFO     | __main__:main:135 - Processed query: When will I get my first retirement check

@@ -1,0 +1,12 @@
+streamlit
+streamlit_chat
+streamlit_feedback
+ibm-watson-machine-learning
+ibm-cloud-sdk-core
+crewai
+python-dotenv
+loguru
+langchain-milvus
+ibm-watsonx-ai
+langchain_community
+langchain-ibm

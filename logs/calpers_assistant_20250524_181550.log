@@ -1,0 +1,4 @@
+2025-05-24 18:15:50 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:15:50 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:15:53 | INFO     | src.agents.conversation:_setup_watsonx:49 - IBM watsonx model setup completed
+2025-05-24 18:15:53 | ERROR    | src.agents.conversation:_setup_agents:67 - Error setting up agents: 'ConversationManager' object has no attribute 'tools'

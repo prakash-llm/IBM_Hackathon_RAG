@@ -1,0 +1,5 @@
+2025-05-25 12:50:52 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-25 12:50:52 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-25 12:50:56 | INFO     | src.agents.conversation:_setup_watsonx:42 - IBM watsonx model setup completed
+2025-05-25 12:50:57 | INFO     | src.agents.conversation:_setup_embeddings:60 - IBM watsonx embeddings setup completed
+2025-05-25 12:50:57 | ERROR    | src.agents.conversation:_setup_rag:90 - Error setting up RAG: Retriever.__init__() got an unexpected keyword argument 'credentials'

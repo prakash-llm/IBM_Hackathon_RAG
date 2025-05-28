@@ -1,0 +1,3 @@
+2025-05-24 18:08:32 | INFO     | src.utils.logging_config:setup_logging:35 - Logging configured successfully
+2025-05-24 18:08:32 | INFO     | __main__:<module>:16 - Starting CalPERS Multi-Agent Assistant
+2025-05-24 18:08:36 | ERROR    | src.agents.conversation:_setup_watsonx:51 - Error setting up IBM watsonx model: Model 'meta-llama/llama-2-70b-chat' is not supported for this environment
