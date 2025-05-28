@@ -95,7 +95,7 @@ def setup_sidebar():
         
         # Model Selection
         st.selectbox("", ['LLM Models', "meta-llama/llama-2-70b-chat", "meta-llama/llama-2-13b-chat", "meta-llama/llama-2-7b-chat"], key='text_llmmodel')
-        st.selectbox("", ['LLM Framework', "Langchain","Crew AI"], key='text_framework')
+        st.selectbox("", ['Features', "Observability/Tracing with Arize","Evaluation (LLM as a Judge)","Human in the Feedback Loop","Guardrails"], key='text_framework')
         st.selectbox("", ["Library Used", "Streamlit", "Crew AI", "IBM Watsonx"], key='text1')
         st.selectbox("", ["IBM Cloud Services Used", "Watsonx Embedding", "Watsonx Vector Store", "Watsonx Retriever"], key='text2')
         

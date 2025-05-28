@@ -1,4 +1,3 @@
-streamlit
 streamlit_chat
 streamlit_feedback
 ibm-watson-machine-learning
@@ -10,3 +9,4 @@ langchain-milvus
 ibm-watsonx-ai
 langchain_community
 langchain-ibm
+streamlit==1.28.2
